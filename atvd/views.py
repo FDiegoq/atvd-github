@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def Diego(request):
     return render(request, 'Diego.html')
+
+def Heloisa(request):
+    return render(request, "Heloisa.html")

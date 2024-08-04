@@ -20,5 +20,6 @@ from ..atvd.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/Diego', Diego)
+    path('/Diego', Diego),
+    path('/Heloisa', Heloisa)
 ]
